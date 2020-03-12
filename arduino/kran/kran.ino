@@ -23,7 +23,7 @@
 #include<stdio.h>
 #include<string.h>
 
-SoftwareSerial SimSerial(11, 10); // TX,  RX
+SoftwareSerial SimSerial(10, 11); // TX,  RX
 
 uint32_t Timer1, Timer2, Timer3, Timer4, Timer5, Timer6, Timer7, Timer8;
 uint32_t TimerPrint, TimerEmpty;
